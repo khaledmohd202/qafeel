@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:qafeel/qafeel.dart';
 
 void main() async {
-  // WidgetsFlutterBinding.ensureInitialized();
+  WidgetsFlutterBinding.ensureInitialized();
 
   await SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitDown,
